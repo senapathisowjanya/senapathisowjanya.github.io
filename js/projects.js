@@ -1,33 +1,33 @@
 let myhoursSrcBtn = document.querySelector("#myhours_source_code_btn");
 myhoursSrcBtn.onclick = () =>{
-    window.open("https://github.com/Venkysanju246/gamy-lace-3375", '_blank');
+    window.open("https://github.com/senapathisowjanya/willing-collar-6727", '_blank');
 }
 
 let myhoursLiveBtn = document.querySelector("#myhours_live_btn");
 myhoursLiveBtn.onclick = () =>{
-    window.open("https://shoozie.netlify.app/", '_blank');
+    window.open("https://resilient-gaufre-31cc5b.netlify.app/", '_blank');
 }
 
 let wrikeSrcBtn = document.querySelector("#wrike_source_code_btn");
 wrikeSrcBtn.onclick = () =>{
-    window.open("https://github.com/sourabhkt1997/haloed-haircut-8824", '_blank');
+    window.open("https://github.com/Payalsahuj/elastic-behavior-9682", '_blank');
 }
 
 let wrikeLiveBtn = document.querySelector("#wrike_live_btn");
 wrikeLiveBtn.onclick = () =>{
-    window.open("https://comprass.netlify.app/", '_blank');
+    window.open("https://elastic-behavior-9682.vercel.app/", '_blank');
 }
 
 
 
 let hotstarSrcBtn = document.querySelector("#hotstar_source_code_btn");
 hotstarSrcBtn.onclick = () =>{
-    window.open("https://github.com/Venkysanju246/rabid-flower-3002", '_blank');
+    window.open("https://github.com/senapathisowjanya/unused-thing-2855", '_blank');
 }
 
 let hotstarLiveBtn = document.querySelector("#hotstar_live_btn");
 hotstarLiveBtn.onclick = () =>{
-    window.open("https://kindmealfull.netlify.app/", '_blank');
+    window.open("https://splendorous-halva-9a5d14.netlify.app/", '_blank');
 }
 
 
