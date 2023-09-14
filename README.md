@@ -33,20 +33,37 @@ I further honed my web development skills by enrolling in the full-time 30-week 
 
 ## Projects
 
-### indiamart.com (Clone)
+### Chat With Pdf App 
 
-- Features: Authentication, Filter, Routing, Login, Signup, Add to Cart
-- Description: An individual project completed in 5 days. It is a full-fledged e-commerce website that enables consumers to directly purchase goods or services from sellers.
-- Tech-Stack: React, Chakra-UI, Mockapi, JSON
+- Features: Teachable Machine Authentication,Chat with Pdf,Storing History
+- Description: I completed this solo project in just three days. This project involves an AI-integrated application, developed using embeddings and language chains. For the frontend, I utilized HTML and CSS.
+- Tech-Stack: Python ,Html , CSS
 
-### flipkart.com (Clone)
+  ## Some Glimps of Chat With Pdf App
+  ![Uploading Screenshot (362).png…]()
+(https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/3db482af-d3e8-4881-b25f-80e4bec4c1b7)
 
-- Features: Filter, Sorting, Login, Signup, Admin Panel, Cart Page, Payment Page
-- Description: A collaborative project developed within 5 days, with a team of 5. The website replicates the functionalities of Flipkart.com, an Indian e-commerce company offering a wide range of products and services online.
-- Tech-Stack: HTML, CSS, JavaScript, JSON
+![Screenshot (363)](https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/bc4d77c7-45f3-4d4c-87fb-97f99906d955)
+
+  ![Screenshot (364)](https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/69fa08dc-f248-4ce0-9dbe-0f7f67ad5597)
+
+![Screenshot (365)](https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/fd2984c7-ad77-4ae5-a571-de4fe8682054)
+
+### Tax Genius.com (Clone of TaxTim.com)
+
+- Features: Authentication , Payment Method , Different dynamic Tax Calculators, chat Bot.
+- Description: A collaborative project developed within 5 days, with a team of 5. The website replicates the functionalities of TaxTim.com.
+- Tech-Stack: React ,Redux , Styled Components, JSON , Chakra Ui.
 - Area of responsibility:
-  - Developed the Signup Page & Login Page With OTP verification
-  - Developed the Payment Page
+  - Developed the Company's Calculator Page
+  - Developed the LogBook Page With Responsive.
+
+## Some Glimps of Tax Genius
+![Screenshot (1238)](https://user-images.githubusercontent.com/115584065/236942350-19b18640-92db-4deb-98c4-21e0feece481.png)
+![Screenshot (1240)](https://user-images.githubusercontent.com/115584065/236943518-c3bf920b-d08d-4e61-8e6f-1c1eceb39eae.png)
+![Screenshot (1241)](https://user-images.githubusercontent.com/115584065/236944147-fa84d822-b649-473a-8262-011dfbd01f74.png)
+![Screenshot (1248)](https://user-images.githubusercontent.com/115584065/236943897-12137764-fd6e-4272-9394-26893aab97e5.png)
+
 
 ## Hobbies and Interests
 
