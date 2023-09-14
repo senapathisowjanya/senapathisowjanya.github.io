@@ -40,8 +40,8 @@ I further honed my web development skills by enrolling in the full-time 30-week 
 - Tech-Stack: Python ,Html , CSS
 
   ## Some Glimps of Chat With Pdf App
-  ![Uploading Screenshot (362).png…]()
-(https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/3db482af-d3e8-4881-b25f-80e4bec4c1b7)
+ ![Screenshot (362)](https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/f31923c1-511c-4106-9cd8-f7bec04afd7b)
+
 
 ![Screenshot (363)](https://github.com/senapathisowjanya/senapathisowjanya.github.io/assets/119430125/bc4d77c7-45f3-4d4c-87fb-97f99906d955)
 
