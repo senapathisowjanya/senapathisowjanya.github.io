@@ -10,7 +10,7 @@ myhoursLiveBtn.onclick = () =>{
 
 let wrikeSrcBtn = document.querySelector("#wrike_source_code_btn");
 wrikeSrcBtn.onclick = () =>{
-    window.open("https://github.com/Payalsahuj/elastic-behavior-9682", '_blank');
+    window.open("https://github.com/senapathisowjanya/elastic-behavior-9682", '_blank');
 }
 
 let wrikeLiveBtn = document.querySelector("#wrike_live_btn");
@@ -34,12 +34,12 @@ hotstarLiveBtn.onclick = () =>{
 
 let youtubeSrcBtn = document.querySelector("#youtube_source_code_btn");
 youtubeSrcBtn.onclick = () =>{
-    window.open("https://github.com/Abhinav-Mourya/youtubeAppClone", '_blank');
+    window.open("https://github.com/senapathisowjanya/CosMos-project", '_blank');
 }
 
 let youtubeLiveBtn = document.querySelector("#youtube_live_btn");
 youtubeLiveBtn.onclick = () =>{
-    window.open("https://frolicking-jelly-eafa50.netlify.app/", '_blank');
+    window.open("https://64fa8c7aa1f72c1e00d37f42--dynamic-mousse-b24819.netlify.app/", '_blank');
 }
 
 
