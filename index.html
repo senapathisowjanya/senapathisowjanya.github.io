@@ -88,7 +88,7 @@
                     <div id="resumeButtons">
                         <div>
                             <!-- <button id="resume-button-2" type="button"><span></span>View Resume</button> -->
-                            <a id="resume-link" href="./Sowjanya-Senapathi-Resume .pdf"><button id="resume-button-2" type="button"><span></span>View Resume</button></a>
+                            <a id="resume-link" href="#" onclick="fun1(), fun2()"><button id="resume-button-2" type="button"><span></span> Resume</button></a>
                             <!-- <div> -->
                             <!-- <a id="resume-link" href="./Sowjanya-Senapathi-Resume.pdf">
                                 <button id="resume-button-2" type="button"><span></span>View Resume</button>
@@ -99,8 +99,8 @@
                         <div>
                             <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
                             <!-- <a href="https://wallpapercave.com/wp/wp2599594.jpg" download="#"><button class="resumeButton" type="button"><span></span>Download Resume</button></a> -->
-                            <a href="./Sowjanya-Senapathi-Resume .pdf" download><button id="resume-button-2" 
-                                    type="button"><span></span>Download Resume</button></a>
+                            <!-- <a href="./Sowjanya-Senapathi-Resume .pdf" download><button id="resume-button-2" 
+                                    type="button"><span></span>Download Resume</button></a> -->
                             <!-- <button type="button"><span></span>Subscribe</button> -->
 
                         </div>
@@ -501,19 +501,38 @@
     const resumeBtn = document.querySelector(".resumeButton");
     const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
 
-    document.getElementById('resume-button-2').addEventListener('click', function (event) {
-        event.preventDefault(); // This line prevents the default link behavior
-        const resumeLink = document.getElementById('resume-link').href;
-        window.open(resumeLink, '_blank');
+    const fun1 = ()=>{
+        console.log("fun1 executed")
+        const resumeURL = "./Sowjanya-Senapathi-Resume .pdf";
+                // Create a hidden anchor element to trigger the download
+                const downloadLink = document.createElement('a');
+                downloadLink.href = resumeURL;
+                downloadLink.download = 'resume.pdf';
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+
+    }
+
+    const fun2 = ()=>{
+        console.log("fun2 executed")
+        const resumeURL = "./Sowjanya-Senapathi-Resume .pdf";
+                window.open(resumeURL, '_blank');
+    }
+
+    // document.getElementById('resume-button-2').addEventListener('click', function (event) {
+    //     event.preventDefault(); 
+    //     const resumeLink = document.getElementById('resume-link').href;
+    //     window.open(resumeLink, '_blank');
         
-        var downloadLink = document.createElement("a");
-        downloadLink.href = resumeFile;
-        downloadLink.download = "Sowjanya-Senapathi-Resume.pdf";
-        downloadLink.style.display = "none";
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-    });
+    //     var downloadLink = document.createElement("a");
+    //     downloadLink.href = resumeFile;
+    //     downloadLink.download = "Sowjanya-Senapathi-Resume.pdf";
+    //     downloadLink.style.display = "none";
+    //     document.body.appendChild(downloadLink);
+    //     downloadLink.click();
+    //     document.body.removeChild(downloadLink);
+    // });
 
     resumeBtnOnNavbar.onclick = () => {
         window.open("https://drive.google.com/file/d/1nj5MN1fCGiFKrouoZOEVNQ-5Zk5psvQy/view", '_blank', 'noreferrer');
