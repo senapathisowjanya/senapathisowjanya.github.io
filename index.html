@@ -46,7 +46,8 @@
                     <li><a class="skills" href="#to_stop_for_skills">Skills</a></li>
                     <li><a class="projects" href="#projects_top_section">Projects</a></li>
                     <li><a class="contact" href="#contact_top_section">Contact</a></li>
-                    <!-- <li id="resumeBtnOnNavbar"><a class="resume" href="#">Resume<i class='far fa-arrow-alt-circle-down'></i></a></li> -->
+                    <!-- <li><a  href="#" onclick="fun1(), fun2()">Resume</a></li> -->
+                    <li id="resumeBtnOnNavbar"><a class="resume" href="#" onclick="fun1(), fun2()"><i class='far fa-arrow-alt-circle-down' ></i><span> </span> Resume</a></li>
                 </ul>
 
                 <div class="icon menu-btn">
@@ -507,7 +508,7 @@
                 // Create a hidden anchor element to trigger the download
                 const downloadLink = document.createElement('a');
                 downloadLink.href = resumeURL;
-                downloadLink.download = 'resume.pdf';
+                downloadLink.download = 'Sowjanya-Senapathi-Resume.pdf';
                 document.body.appendChild(downloadLink);
                 downloadLink.click();
                 document.body.removeChild(downloadLink);
