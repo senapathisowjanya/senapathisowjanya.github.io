@@ -32,7 +32,10 @@ var _typeof2 = "function" == typeof Symbol && "symbol" == _typeof(Symbol.iterato
         return e + " " + (1 === e ? "day" : "days");
       }t.exports = function (d, e, f) {
         d = g(d), (f = f || {}).summary_text = f.summary_text || 'Summary of pull requests, issues opened, and commits made by <a href="https://github.com/' + e + '" target="blank">@' + e + "</a>", f.cache = 1e3 * (f.cache || 86400), !1 === f.global_stats && (d.style.minHeight = "175px");var n = { content: "gh_calendar_content." + e, expire_at: "gh_calendar_expire." + e };return f.proxy = f.proxy || function (e) {
-          return fetch("https://api.bloggify.net/gh-calendar/?username=" + e).then(function (e) {
+          return fetch(
+            "https://api.bloggify.net/gh-calendar/?username=senapathisowjanya" +
+              e
+          ).then(function (e) {
             return e.text();
           });
         }, f.getCalendar = f.getCalendar || function (e) {
